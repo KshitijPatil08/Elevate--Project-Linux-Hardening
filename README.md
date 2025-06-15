@@ -2,8 +2,6 @@
 
 Elevate is a Python-based Linux hardening audit tool that checks the security posture of your Linux system by performing various checks and optionally applies automated hardening changes to improve system security.
 
----
-
 ## Features
 
 - Firewall Status Check: Verifies if UFW (Uncomplicated Firewall) is active.
@@ -22,8 +20,6 @@ Elevate is a Python-based Linux hardening audit tool that checks the security po
   - Account lockout policy to prevent brute force attacks
   - Logging user commands for auditing
 
----
-
 ## Usage
 
 1. Clone the repository:
@@ -41,12 +37,16 @@ Requirements
 
 Python 3.x
 ufw (Uncomplicated Firewall)
+
 chkrootkit (for rootkit detection)
+
 Linux system with systemctl (systemd)
 
 Notes
 The script requires sudo privileges to perform some checks and apply changes.
+
 It dynamically detects running services and disables unused insecure services during hardening.
+
 After applying hardening, a system reboot is recommended.
 
 Contributing
