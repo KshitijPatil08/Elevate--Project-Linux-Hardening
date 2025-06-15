@@ -36,15 +36,15 @@ Follow the prompts to view the audit report and optionally apply hardening chang
 
 ## Requirements
 
--Python 3.x
--ufw (Uncomplicated Firewall)
--chkrootkit (for rootkit detection)
--Linux system with systemctl (systemd)
+- Python 3.x
+- ufw (Uncomplicated Firewall)   
+- chkrootkit (for rootkit detection)  
+- Linux system with systemctl (systemd)
 
-Notes
--The script requires sudo privileges to perform some checks and apply changes.
--It dynamically detects running services and disables unused insecure services during hardening.
--After applying hardening, a system reboot is recommended.
+## Notes
+- The script requires sudo privileges to perform some checks and apply changes.
+- It dynamically detects running services and disables unused insecure services during hardening.
+- After applying hardening, a system reboot is recommended.
 
 Contributing
 Contributions and suggestions are welcome! Please open an issue or submit a pull request.
